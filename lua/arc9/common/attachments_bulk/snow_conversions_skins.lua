@@ -1,5 +1,3 @@
--- BR Atts
-
 -- Halo CE
 	-- Assault Rifle
 local ATT = {}
@@ -97,3 +95,141 @@ ATT.Category = "halo_skins"
 ATT.Folder = "Weapon Skins"
 
 ARC9.LoadAttachment(ATT, "skin_cear7")
+
+-- Halo 3
+	-- Battle Rifle
+local ATT = {}
+
+ATT.PrintName = "Fern Stencil"
+ATT.CompactName = "FERN"
+ATT.FullColorIcon = true
+ATT.Description = [[Welcome to the Outback.]]
+ATT.Icon = Material("snowysnowtime/camos/camo1")
+ATT.Category = "h3br_skin"
+ATT.Folder = "Weapon Skins"
+
+ARC9.LoadAttachment(ATT, "skin_h3br1")
+
+local ATT = {}
+
+ATT.PrintName = "Mean Streets of New Mombasa"
+ATT.CompactName = "MEAN"
+ATT.FullColorIcon = true
+ATT.Description = [[Grafitti for years to come.]]
+ATT.Icon = Material("snowysnowtime/camos/camo1")
+ATT.Category = "h3br_skin"
+ATT.Folder = "Weapon Skins"
+
+ARC9.LoadAttachment(ATT, "skin_h3br2")
+
+local ATT = {}
+
+ATT.PrintName = "Great Journey"
+ATT.CompactName = "GJ"
+ATT.FullColorIcon = true
+ATT.Description = [["... the tasks you must take as an Arbiter are perilous, suicidal; you will DIE, as each Arbiter has before you. The Council will have their corpse."]]
+ATT.Icon = Material("snowysnowtime/camos/camo1")
+ATT.Category = "h3br_skin"
+ATT.Folder = "Weapon Skins"
+ATT.MuzzleParticle = "arc9ce_halo_3_muzzle_needler_battlerifle" -- Used for some muzzle effects.
+-- ATT.PhysBulletModel = "models/impulse/halo/projectiles/projectile_needle.mdl"
+ATT.PhysBulletModelStick = 5 -- The amount of time a physbullet model will stick on impact.
+ATT.TracerColor = Color(255, 110, 255)
+
+ARC9.LoadAttachment(ATT, "skin_h3br4")
+
+local ATT = {}
+
+ATT.PrintName = "Desert"
+ATT.CompactName = "DES"
+ATT.FullColorIcon = true
+ATT.Description = [["This is the Ark?"]]
+ATT.Icon = Material("snowysnowtime/camos/camo1")
+ATT.Category = "h3br_skin"
+ATT.Folder = "Weapon Skins"
+
+ARC9.LoadAttachment(ATT, "skin_h3br5")
+
+local ATT = {}
+
+ATT.PrintName = "Gold"
+ATT.CompactName = "GOLD"
+ATT.FullColorIcon = true
+ATT.Description = [[This time around we covered it in nickel and THEN we used Titanium Nitride.]]
+ATT.Icon = Material("snowysnowtime/camos/camo1")
+ATT.Category = "h3br_skin"
+ATT.Folder = "Weapon Skins"
+
+ARC9.LoadAttachment(ATT, "skin_h3br6")
+
+local ATT = {}
+
+ATT.PrintName = "117"
+ATT.CompactName = "117"
+ATT.FullColorIcon = true
+ATT.Description = [["Does he usually mention me?"]]
+ATT.Icon = Material("snowysnowtime/camos/camo1")
+ATT.Category = "h3br_skin"
+ATT.Folder = "Weapon Skins"
+
+ARC9.LoadAttachment(ATT, "skin_h3br7")
+
+local ATT = {}
+
+ATT.PrintName = "Hazard Pay"
+ATT.CompactName = "HAZPAY"
+ATT.FullColorIcon = true
+ATT.Description = [[Literally the worst skin to ever be on most guns in MCC.]]
+ATT.Icon = Material("snowysnowtime/camos/camo1")
+ATT.Category = "h3br_skin"
+ATT.Folder = "Weapon Skins"
+
+ARC9.LoadAttachment(ATT, "skin_h3br8")
+
+local ATT = {}
+
+ATT.PrintName = "Red Flames"
+ATT.CompactName = "FLAMES"
+ATT.FullColorIcon = true
+ATT.Description = [[Those who know vs. Those who dont know.]]
+ATT.Icon = Material("snowysnowtime/camos/camo1")
+ATT.Category = "h3br_skin"
+ATT.Folder = "Weapon Skins"
+
+ARC9.LoadAttachment(ATT, "skin_h3br9")
+
+local ATT = {}
+
+ATT.PrintName = "Black Rhine"
+ATT.CompactName = "RHINE"
+ATT.FullColorIcon = true
+ATT.Description = [[Gold with extra steps.]]
+ATT.Icon = Material("snowysnowtime/camos/camo1")
+ATT.Category = "h3br_skin"
+ATT.Folder = "Weapon Skins"
+
+ARC9.LoadAttachment(ATT, "skin_h3br10")
+
+local ATT = {}
+
+ATT.PrintName = "Scorn"
+ATT.CompactName = "SCORN"
+ATT.FullColorIcon = true
+ATT.Description = [[Impulse lol]]
+ATT.Icon = Material("snowysnowtime/camos/camo1")
+ATT.Category = "h3br_skin"
+ATT.Folder = "Weapon Skins"
+
+ARC9.LoadAttachment(ATT, "skin_h3br11")
+
+local ATT = {}
+
+ATT.PrintName = "Vexing"
+ATT.CompactName = "VEX"
+ATT.FullColorIcon = true
+ATT.Description = [[Stanky ass skin]]
+ATT.Icon = Material("snowysnowtime/camos/camo1")
+ATT.Category = "h3br_skin"
+ATT.Folder = "Weapon Skins"
+
+ARC9.LoadAttachment(ATT, "skin_h3br12")
