@@ -23,6 +23,10 @@ ATT.Description = [["... and you shall be set loose against this heresy with our
 ATT.Icon = Material("snowysnowtime/camos/camo1")
 ATT.Category = "halo_skins"
 ATT.Folder = "Weapon Skins"
+ATT.MuzzleParticle = "arc9ce_halo_spv3_muzzle_needler" -- Used for some muzzle effects.
+-- ATT.PhysBulletModel = "models/impulse/halo/projectiles/projectile_needle.mdl"
+ATT.PhysBulletModelStick = 5 -- The amount of time a physbullet model will stick on impact.
+ATT.TracerColor = Color(255, 110, 255)
 
 ARC9.LoadAttachment(ATT, "skin_cear2")
 
