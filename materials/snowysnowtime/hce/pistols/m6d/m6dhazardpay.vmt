@@ -2,36 +2,35 @@
 {
 	"$basetexture" "snowysnowtime/hce/pistols/m6d/hazardpay"
 	"$bumpmap" "snowysnowtime/hce/pistols/m6d/hazardpay_n"
+	"$lightwarptexture"	"snowysnowtime/phongwarps/mw_lightwarp"
+	"$selfillum" "1"
+	"$selfillummask" "snowysnowtime/hce/pistols/m6d/magnum_emmissive"
 	"$detail"   "snowysnowtime/details/cyborg_detail"
 	"$detailscale" "16"
 	"$detailblendmode" "0"
-	"$detailblendfactor" "0.3"
-	"$selfillum" "1"
-	"$selfillummask" "snowysnowtime/hce/pistols/m6d/magnum_emmissive"
-	"$color2" "[0.87 0.87 0.87]"
-	"$lightwarptexture"	"snowysnowtime/hce/pistols/m6d/lw_pistol"
+	"$detailblendfactor" "0.5"
 	"$phong" "1" 
-	"$phongboost" "12"
-	"$phongexponenttexture" "snowysnowtime/hce/pistols/m6d/hazardpay_p"
-	"$phongwarptexture" "snowysnowtime/phongwarps/phongwarp_refract"
+	"$phongboost" "60"
+	"$phongexponenttexture" "snowysnowtime/hce/pistols/m6d/hazardpay_exp"
+	"$phongwarptexture" "snowysnowtime/phongwarps/mw_phongwarp_refract"
 	"$phongalbedotint" "1"
 	"$phongfresnelranges" "[4 0.5 8]"
 	"$phongdisablehalflambert" "1"
 	"$rimlight"	1
 	"$rimlightpower"	10
 	"$rimmask"	1
-	"$envmap"	"env_cubemap"
-	"$normalmapalphaenvmapmask"	"1"
+	"$envmap" "snowysnowtime/envmaps/mw_envmap_fallback"
+	"$envmaptint" "[ 1 1 1 ]"
+	"$cubemaptint"	"[ 1 1 1 ]"
+	"$basetexturealphaenvmapmask"	"1"
 	"$envmapfresnel"	"0.15"
-	"$envmaptint"	"[ .035 .035 .035 ]"
+	"$cubemappower"	0.3
 
 	Proxies
 	{
-		MwEnvMapTint
+		drc_ReflectionTint
 		{
-			min	"0"
-			max	"0.5"
+			resultVar $envmaptint
 		}
-		MwCamo {}
 	}
 }

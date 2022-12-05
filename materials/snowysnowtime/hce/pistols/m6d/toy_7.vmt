@@ -1,0 +1,36 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "snowysnowtime/hce/pistols/m6d/toy"
+	"$bumpmap" "snowysnowtime/hce/pistols/m6d/toy_n"
+	"$lightwarptexture"	"snowysnowtime/phongwarps/lightwarp_leather"
+	"$selfillum" "1"
+	"$selfillummask" "snowysnowtime/hce/pistols/m6d/magnum_emmissive"
+	"$detail"   "snowysnowtime/details/cyborg_detail"
+	"$detailscale" "16"
+	"$detailblendmode" "0"
+	"$detailblendfactor" "0.5"
+	"$phong" "1" 
+	"$phongboost" "5"
+	"$phongexponenttexture" "snowysnowtime/hce/pistols/m6d/toy_exp"
+	"$phongwarptexture" "snowysnowtime/phongwarps/phongwarp"
+	"$phongalbedotint" "1"
+	"$phongfresnelranges" "[4 0.5 8]"
+	"$phongdisablehalflambert" "1"
+	"$rimlight"	1
+	"$rimlightpower"	10
+	"$rimmask"	1
+	"$envmap" "snowysnowtime/envmaps/mw_envmap_fallback"
+	"$envmaptint" "[ 1 1 1 ]"
+	"$cubemaptint"	"[ 1 1 1 ]"
+	"$basetexturealphaenvmapmask"	"1"
+	"$envmapfresnel"	"0.15"
+	"$cubemappower"	0.05
+
+	Proxies
+	{
+		drc_ReflectionTint
+		{
+			resultVar $envmaptint
+		}
+	}
+}

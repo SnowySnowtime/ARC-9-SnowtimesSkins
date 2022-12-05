@@ -96,6 +96,111 @@ ATT.Folder = "Weapon Skins"
 
 ARC9.LoadAttachment(ATT, "skin_cear7")
 
+	-- M6D --
+local ATT = {}
+
+ATT.PrintName = "Black Cherry"
+ATT.CompactName = "CHERRY"
+ATT.FullColorIcon = true
+ATT.Description = [[Classic brushed steel with a hydrodipped "wood" finish.]]
+ATT.Icon = Material("snowysnowtime/camos/camo1")
+ATT.Category = "halo_m6d_skins"
+ATT.Folder = "Weapon Skins"
+
+ARC9.LoadAttachment(ATT, "skin_cepistol1")
+
+local ATT = {}
+
+ATT.PrintName = "Desert"
+ATT.CompactName = "DESERT"
+ATT.FullColorIcon = true
+ATT.Description = [[Truth & Reconciliation is one of the few levels where you cannot find a Magnum.]]
+ATT.Icon = Material("snowysnowtime/camos/camo1")
+ATT.Category = "halo_m6d_skins"
+ATT.Folder = "Weapon Skins"
+
+ARC9.LoadAttachment(ATT, "skin_cepistol2")
+
+local ATT = {}
+
+ATT.PrintName = "Gold"
+ATT.CompactName = "GOLD"
+ATT.FullColorIcon = true
+ATT.Description = [[We got nothing. Still Titanium Nitride.]]
+ATT.Icon = Material("snowysnowtime/camos/camo1")
+ATT.Category = "halo_m6d_skins"
+ATT.Folder = "Weapon Skins"
+
+ARC9.LoadAttachment(ATT, "skin_cepistol3")
+
+local ATT = {}
+
+ATT.PrintName = "Hazard Pay"
+ATT.CompactName = "HAZARD"
+ATT.FullColorIcon = true
+ATT.Description = [[Foreshadowing.]]
+ATT.Icon = Material("snowysnowtime/camos/camo1")
+ATT.Category = "halo_m6d_skins"
+ATT.Folder = "Weapon Skins"
+
+ARC9.LoadAttachment(ATT, "skin_cepistol4")
+
+local ATT = {}
+
+ATT.PrintName = "The Great Journey"
+ATT.CompactName = "GREAT"
+ATT.FullColorIcon = true
+ATT.Description = [["...when you first saw halo... were you blinded by its majesty?"
+"Blinded?"
+"Paralyzed, dumbstruck?"
+"No!"
+"Yet the humans were able to evade your ships, land on the sacred ring, and DESECRATE it with their filthy footsteps!"]]
+ATT.Icon = Material("snowysnowtime/camos/camo1")
+ATT.Category = "halo_m6d_skins"
+ATT.Folder = "Weapon Skins"
+ATT.MuzzleParticle = "arc9ce_halo_ce_muzzle_needler" -- Used for some muzzle effects.
+-- ATT.PhysBulletModel = "models/impulse/halo/projectiles/projectile_needle.mdl"
+ATT.PhysBulletModelStick = 5 -- The amount of time a physbullet model will stick on impact.
+ATT.TracerColor = Color(255, 110, 255)
+
+ARC9.LoadAttachment(ATT, "skin_cepistol5")
+
+local ATT = {}
+
+ATT.PrintName = "Toy Soldier"
+ATT.CompactName = "TOY"
+ATT.FullColorIcon = true
+ATT.Description = [[Timeless piece. Will totally scare your opponents.]]
+ATT.Icon = Material("snowysnowtime/camos/camo1")
+ATT.Category = "halo_m6d_skins"
+ATT.Folder = "Weapon Skins"
+
+ARC9.LoadAttachment(ATT, "skin_cepistol6")
+
+local ATT = {}
+
+ATT.PrintName = "Woodlands"
+ATT.CompactName = "WOODLAND"
+ATT.FullColorIcon = true
+ATT.Description = [[Basic Camo.]]
+ATT.Icon = Material("snowysnowtime/camos/camo1")
+ATT.Category = "halo_m6d_skins"
+ATT.Folder = "Weapon Skins"
+
+ARC9.LoadAttachment(ATT, "skin_cepistol7")
+
+local ATT = {}
+
+ATT.PrintName = "COD Gold"
+ATT.CompactName = "CHEESE"
+ATT.FullColorIcon = true
+ATT.Description = [[Turns your gun fully gold, Call Of Duty styled.]]
+ATT.Icon = Material("snowysnowtime/camos/camo1")
+ATT.Category = "halo_m6d_skins"
+ATT.Folder = "Weapon Skins"
+
+ARC9.LoadAttachment(ATT, "skin_cepistol8")
+
 -- Halo 3
 	-- Battle Rifle
 local ATT = {}
@@ -215,7 +320,7 @@ local ATT = {}
 ATT.PrintName = "Scorn"
 ATT.CompactName = "SCORN"
 ATT.FullColorIcon = true
-ATT.Description = [[Impulse lol]]
+ATT.Description = [[Scorn]]
 ATT.Icon = Material("snowysnowtime/camos/camo1")
 ATT.Category = "h3br_skin"
 ATT.Folder = "Weapon Skins"
