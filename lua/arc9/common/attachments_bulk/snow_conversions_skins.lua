@@ -201,6 +201,41 @@ ATT.Folder = "Weapon Skins"
 
 ARC9.LoadAttachment(ATT, "skin_cepistol8")
 
+local ATT = {}
+
+ATT.PrintName = "Funny"
+ATT.CompactName = "Funny"
+ATT.FullColorIcon = true
+ATT.Description = [[With the right combination, will do something hilarious]]
+ATT.Icon = Material("snowysnowtime/camos/camo1")
+ATT.Category = "halo_m6d_skins"
+ATT.Folder = "Weapon Skins"
+-- ATT.BottomlessClip = true
+-- ATT.RPM = 165
+
+ATT.TracerNum = 1
+
+local colors = {
+    Color(255, 25, 25),
+    Color(255, 200, 25),
+    Color(255, 255, 25),
+    Color(25, 255, 25),
+    Color(25, 255, 255),
+    Color(25, 25, 255),
+    Color(255, 25, 255)
+}
+
+ATT.TracerColorHook = function(swep, col)
+    local n = swep:GetNthShot() % #colors
+    n = n + 1
+
+    return colors[n]
+end
+
+ATT.TracerSizeAdd = 6
+
+ARC9.LoadAttachment(ATT, "skin_cepistolfunny")
+
 -- Halo 3
 	-- Battle Rifle
 local ATT = {}
