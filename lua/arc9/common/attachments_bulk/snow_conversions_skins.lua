@@ -99,6 +99,56 @@ ARC9.LoadAttachment(ATT, "skin_cear7")
 	-- M6D --
 local ATT = {}
 
+ATT.PrintName = "Forerunner"
+ATT.CompactName = "FORERUNNER"
+ATT.FullColorIcon = true
+ATT.Description = [[A new chapter for an old legend.
+Banshee-44 considered the relic on his workbench and the questions on his mind; one stood out above the rest: who were you meant for?
+
+The form of the weapon suggested an oversized sidearm—a secondary weapon for a giant's hands. The function presented more so as an anti-material rifle. "Looks to be 12.7mm… it's like they were making a hand cannon but didn't know it yet."]]
+ATT.Icon = Material("snowysnowtime/camos/camo1")
+ATT.Category = "halo_m6d_conversions"
+ATT.MuzzleParticle = "arc9ce_halo_spv3_muzzle_brute_shot" -- Used for some muzzle effects.
+-- ATT.PhysBulletModel = "models/impulse/halo/projectiles/projectile_needle.mdl"
+ATT.PhysBulletModelStick = 5 -- The amount of time a physbullet model will stick on impact.
+ATT.TracerColor = Color(110, 200, 255)
+ATT.ActivePos = Vector(2, 1, 2)
+ATT.ActiveAng = Angle(0, 1, 0)
+ATT.CrouchPos = Vector(-4, 1, -4)
+ATT.CrouchAng = Angle(0, 0, -30)
+ATT.RestPos = Vector(0.532, -6, 0)
+ATT.RestAng = Angle(-4.633, 36.881, 0)
+ATT.SprintPos = Vector(1.5,-1,1)
+ATT.SprintAng = Angle(25,-10,-5)
+ATT.TraversalSprintPos = Vector(2, 3, -13)
+ATT.TraversalSprintAng = Angle(0, 75, 0)
+ATT.HolsterPos = Vector(0, 0, 0)
+ATT.HolsterAng = Angle(0, 0, 0)
+ATT.ShootSound = "arc9.forerunner.fire"
+ATT.IronSights = {
+	Pos = Vector(0, -200, 0),
+	Ang = Angle(0, 0, 0),
+	Magnification = 2,
+	AssociatedSlot = 0, -- Attachment slot to associate the sights with. Causes RT scopes to render.
+	CrosshairInSights = true,
+	---- FLAT SCOPES
+	-- These don't look very good; please use actual RT scopes if possible.
+	FlatScope = true,
+	FlatScopeOverlay = Material("snowysnowtime/scopes/forerunner_scope"), -- Material()
+	FlatScopeKeepVM = false,
+	FlatScopeBlackBox = false,
+	FlatScopeCC = nil -- Color correction table, see default.lua
+}
+
+ATT.SightMidPoint = { -- Where the gun should be at the middle of it's irons
+	Pos = Vector(0, -200, 0),
+	Ang = Angle(0, 0, 0),
+}
+
+ARC9.LoadAttachment(ATT, "d2forerunner")
+
+local ATT = {}
+
 ATT.PrintName = "Black Cherry"
 ATT.CompactName = "CHERRY"
 ATT.FullColorIcon = true
@@ -236,6 +286,210 @@ ATT.TracerSizeAdd = 6
 
 ARC9.LoadAttachment(ATT, "skin_cepistolfunny")
 
+	-- M90CE --
+local ATT = {}
+
+ATT.PrintName = "Desert"
+ATT.CompactName = "DESERT"
+ATT.FullColorIcon = true
+ATT.Description = [[Timeless Tan.]]
+ATT.Icon = Material("snowysnowtime/camos/camo1")
+ATT.Category = "halo_m90ce_skins"
+ATT.Folder = "Weapon Skins"
+
+ARC9.LoadAttachment(ATT, "skin_cem901")
+
+local ATT = {}
+
+ATT.PrintName = "Gold"
+ATT.CompactName = "GOLD"
+ATT.FullColorIcon = true
+ATT.Description = [[Titanium Nitride.]]
+ATT.Icon = Material("snowysnowtime/camos/camo1")
+ATT.Category = "halo_m90ce_skins"
+ATT.Folder = "Weapon Skins"
+
+ARC9.LoadAttachment(ATT, "skin_cem902")
+
+local ATT = {}
+
+ATT.PrintName = "Hunter's Blood"
+ATT.CompactName = "HUNTER"
+ATT.FullColorIcon = true
+ATT.Description = [[Orange Juice]]
+ATT.Icon = Material("snowysnowtime/camos/camo1")
+ATT.Category = "halo_m90ce_skins"
+ATT.Folder = "Weapon Skins"
+
+ARC9.LoadAttachment(ATT, "skin_cem903")
+
+local ATT = {}
+
+ATT.PrintName = "Woodlands"
+ATT.CompactName = "WOODLAND"
+ATT.FullColorIcon = true
+ATT.Description = [[Classic Camo]]
+ATT.Icon = Material("snowysnowtime/camos/camo1")
+ATT.Category = "halo_m90ce_skins"
+ATT.Folder = "Weapon Skins"
+
+ARC9.LoadAttachment(ATT, "skin_cem904")
+
+local ATT = {}
+
+ATT.PrintName = "The Great Journey"
+ATT.CompactName = "GREAT"
+ATT.FullColorIcon = true
+ATT.Description = [[What will you have your Arbiter do?]]
+ATT.Icon = Material("snowysnowtime/camos/camo1")
+ATT.Category = "halo_m90ce_skins"
+ATT.Folder = "Weapon Skins"
+ATT.MuzzleParticle = "arc9ce_halo_2_muzzle_needler" -- Used for some muzzle effects.
+-- ATT.PhysBulletModel = "models/impulse/halo/projectiles/projectile_needle.mdl"
+ATT.PhysBulletModelStick = 5 -- The amount of time a physbullet model will stick on impact.
+ATT.TracerColor = Color(255, 110, 255)
+
+ARC9.LoadAttachment(ATT, "skin_cem905")
+
+	-- SRS99C --
+local ATT = {}
+
+ATT.PrintName = "Gold"
+ATT.CompactName = "GOLD"
+ATT.FullColorIcon = true
+ATT.Description = [[We call it gold, but its actually coated with Titanium Nitride.]]
+ATT.Icon = Material("snowysnowtime/camos/camo1")
+ATT.Category = "halo_cesr_skins"
+ATT.Folder = "Weapon Skins"
+
+ARC9.LoadAttachment(ATT, "skin_cesr1")
+
+ATT = {}
+
+ATT.PrintName = "The Great Journey"
+ATT.CompactName = "GREAT"
+ATT.FullColorIcon = true
+ATT.Description = [["... and you shall be set loose against this heresy with our blessing."]]
+ATT.Icon = Material("snowysnowtime/camos/camo1")
+ATT.Category = "halo_cesr_skins"
+ATT.Folder = "Weapon Skins"
+ATT.MuzzleParticle = "arc9ce_halo_spv3_muzzle_beam_rifle" -- Used for some muzzle effects.
+-- ATT.PhysBulletModel = "models/impulse/halo/projectiles/projectile_needle.mdl"
+ATT.PhysBulletModelStick = 5 -- The amount of time a physbullet model will stick on impact.
+ATT.TracerColor = Color(255, 110, 255)
+
+ARC9.LoadAttachment(ATT, "skin_cesr2")
+
+local ATT = {}
+
+ATT.PrintName = "Desert"
+ATT.CompactName = "DESERT"
+ATT.FullColorIcon = true
+ATT.Description = [[We call it gold, but its actually coated with Titanium Nitride.]]
+ATT.Icon = Material("snowysnowtime/camos/camo1")
+ATT.Category = "halo_cesr_skins"
+ATT.Folder = "Weapon Skins"
+
+ARC9.LoadAttachment(ATT, "skin_cesr3")
+
+local ATT = {}
+
+ATT.PrintName = "Woodlands"
+ATT.CompactName = "WOODLAND"
+ATT.FullColorIcon = true
+ATT.Description = [[We call it gold, but its actually coated with Titanium Nitride.]]
+ATT.Icon = Material("snowysnowtime/camos/camo1")
+ATT.Category = "halo_cesr_skins"
+ATT.Folder = "Weapon Skins"
+
+ARC9.LoadAttachment(ATT, "skin_cesr4")
+
+local ATT = {}
+
+ATT.PrintName = "Avalanche"
+ATT.CompactName = "AVALANCHE"
+ATT.FullColorIcon = true
+ATT.Description = [[We call it gold, but its actually coated with Titanium Nitride.]]
+ATT.Icon = Material("snowysnowtime/camos/camo1")
+ATT.Category = "halo_cesr_skins"
+ATT.Folder = "Weapon Skins"
+
+ARC9.LoadAttachment(ATT, "skin_cesr5")
+
+local ATT = {}
+
+ATT.PrintName = "COD Gold"
+ATT.CompactName = "CHEESE"
+ATT.FullColorIcon = true
+ATT.Description = [[COD MW2 Gold'd your weapon.]]
+ATT.Icon = Material("snowysnowtime/camos/camo1")
+ATT.Category = "halo_cesr_skins"
+ATT.Folder = "Weapon Skins"
+
+ARC9.LoadAttachment(ATT, "skin_cesr6")
+
+	-- SPNKR --
+	
+local ATT = {}
+
+ATT.PrintName = "Gold"
+ATT.CompactName = "GOLD"
+ATT.FullColorIcon = true
+ATT.Description = [[Ok but why on the launcher?]]
+ATT.Icon = Material("snowysnowtime/camos/camo1")
+ATT.Category = "halo_cerl_skins"
+ATT.Folder = "Weapon Skins"
+
+ARC9.LoadAttachment(ATT, "skin_cerl1")
+
+local ATT = {}
+
+ATT.PrintName = "Hunters Bloood"
+ATT.CompactName = "hunter"
+ATT.FullColorIcon = true
+ATT.Description = [[Orange Juice Barrel]]
+ATT.Icon = Material("snowysnowtime/camos/camo1")
+ATT.Category = "halo_cerl_skins"
+ATT.Folder = "Weapon Skins"
+
+ARC9.LoadAttachment(ATT, "skin_cerl2")
+
+local ATT = {}
+
+ATT.PrintName = "Desert"
+ATT.CompactName = "DESERT"
+ATT.FullColorIcon = true
+ATT.Description = [[Mid Skin]]
+ATT.Icon = Material("snowysnowtime/camos/camo1")
+ATT.Category = "halo_cerl_skins"
+ATT.Folder = "Weapon Skins"
+
+ARC9.LoadAttachment(ATT, "skin_cerl3")
+
+local ATT = {}
+
+ATT.PrintName = "COD GOLD"
+ATT.CompactName = "Cheese"
+ATT.FullColorIcon = true
+ATT.Description = [[This is fucking ridiculous.]]
+ATT.Icon = Material("snowysnowtime/camos/camo1")
+ATT.Category = "halo_cerl_skins"
+ATT.Folder = "Weapon Skins"
+
+ARC9.LoadAttachment(ATT, "skin_cerl4")
+
+local ATT = {}
+
+ATT.PrintName = "corrosion"
+ATT.CompactName = "<string>"
+ATT.FullColorIcon = true
+ATT.Description = [[#hce_mp_rocketlauncher_corrosion_skin_mcc]]
+ATT.Icon = Material("snowysnowtime/camos/camo1")
+ATT.Category = "halo_cerl_skins"
+ATT.Folder = "Weapon Skins"
+
+ARC9.LoadAttachment(ATT, "skin_cerl5")
+
 -- Halo 3
 	-- Battle Rifle
 local ATT = {}
@@ -264,7 +518,7 @@ ARC9.LoadAttachment(ATT, "skin_h3br2")
 
 local ATT = {}
 
-ATT.PrintName = "Great Journey"
+ATT.PrintName = "The Great Journey"
 ATT.CompactName = "GJ"
 ATT.FullColorIcon = true
 ATT.Description = [["... the tasks you must take as an Arbiter are perilous, suicidal; you will DIE, as each Arbiter has before you. The Council will have their corpse."]]
